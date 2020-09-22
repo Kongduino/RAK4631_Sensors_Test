@@ -22,17 +22,17 @@
 
 #define OPT3001_ADDRESS 0x44
 // Remember to #define WIFIPWD WIFISSID and your Key + IDs.
-String WIFIPWD = "didier0barbas";
-String WIFISSID = "SecondTry";
-String VariKey = "LTcMYOvAvDpfM5X8";
-String Var0 = "hJ2VNsZn";
-String Var1 = "xg0ssshI";
-String Var2 = "V5CCrcUH";
-String Var3 = "f1BRHFwB";
-String Var4 = "kVC5Nedj";
-String Var5 = "QFaaMrqM";
-String Var6 = "i5a7p523";
-String Var7 = "j7ceumDw";
+String WIFIPWD = "";
+String WIFISSID = "";
+String VariKey = "";
+String Var0 = "";
+String Var1 = "";
+String Var2 = "";
+String Var3 = "";
+String Var4 = "";
+String Var5 = "";
+String Var6 = "";
+String Var7 = "";
 
 ClosedCube_OPT3001 opt3001;
 SHTC3 mySHTC3; // Declare an instance of the SHTC3 class
