@@ -1,6 +1,6 @@
 # RAK4631 Sensors Test
 
-A project demonstrating how to use some of the sensors from the RAK4631 full set. Since [WisBlock](http://http://wisblock.io/) has four sensor slots and a comms slot, I have picked to start the BME680 environment sensor, the SHTC3 temp/humidity sensor, the LPS22HB pressure sensor and the OPT3001 light sensor. And I added the ESP32 comms module.
+A project demonstrating how to use some of the sensors from the RAK4631 full set. Since [WisBlock](https://wisblock.io/) has four sensor slots and a comms slot, I have picked to start the BME680 environment sensor, the SHTC3 temp/humidity sensor, the LPS22HB pressure sensor and the OPT3001 light sensor. And I added the ESP32 comms module.
 
 This sketch sets up the AP firmware, and initializes the sensors. Then in the loop, every 6 seconds or so, it displays data:
 
